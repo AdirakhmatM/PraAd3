@@ -6,6 +6,7 @@ public class Soundspeakact {
         r.setMerk("Logitech");
         r.setColor("Blue");
         r.setHarga (70000.0);
+        // Can't r.setTypeSoundspeak();
         
         r.listenSound();
         
@@ -16,5 +17,14 @@ public class Soundspeakact {
         System.out.println(r.getColor());
         System.out.print("Harga \t:");
         System.out.println(r.getHarga());
+    
+        SoundSpeakWirreless ra = new SoundSpeakWirreless();
+        ra.setMerk("Blaster X");
+        ra.setColor("Black");
+        ra.setHarga(70000.0);
+        ra.setTypeSoundspeak(" Wireless");
+        ra.listenSound();
+        System.out.println("Type \t="+ra.getTypeSoundspeak());
+        ra.throttle();
     }
 }
