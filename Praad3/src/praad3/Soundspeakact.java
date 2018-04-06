@@ -8,5 +8,13 @@ public class Soundspeakact {
         r.setHarga (70000.0);
         
         r.listenSound();
+        
+        System.out.println("-----------------");
+        System.out.print("Merk \t:");
+        System.out.println(r.getMerk());
+        System.out.print("Color \t:");
+        System.out.println(r.getColor());
+        System.out.print("Harga \t:");
+        System.out.println(r.getHarga());
     }
 }
