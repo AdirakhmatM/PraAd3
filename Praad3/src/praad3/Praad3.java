@@ -5,10 +5,7 @@
  */
 package praad3;
 
-/**
- *
- * @author Ajie
- */
+
 public class Praad3 {
 
     /**
